@@ -5,6 +5,7 @@ import 'firebase/database';
 import DataSnapshot = firebase.database.DataSnapshot;
 import {Subject} from "rxjs";
 import { HomePage } from '../home/home';
+import { ContactPage } from '../contact/contact';
 
 @Component({
   selector: 'page-about',
@@ -34,6 +35,10 @@ export class AboutPage {
           
       }); 
 
+    }
+
+    location() {
+      this.navCtrl.push(ContactPage);
     }
     
 

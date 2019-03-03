@@ -13,6 +13,7 @@ import { AuthService } from '../services/auth.service';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 import * as firebase from 'firebase';
+import { leaflet } from 'leaflet';
 
 @NgModule({
   declarations: [
