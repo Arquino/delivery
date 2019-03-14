@@ -8,7 +8,7 @@
 #define FIREBASE_HOST "delivery-b1f6d.firebaseio.com"
 #define WIFI_SSID "INTRUSION" // Change the name of your WIFI
 #define WIFI_PASSWORD "arctroid" // Change the password of your WIFI
-#define DHTPIN 2    // Data Pin of DHT 11 , for NodeMCU D5 GPIO no. is 2
+#define DHTPIN 15    // Data Pin of DHT 11 , for NodeMCU D5 GPIO no. is 2
 #define DHTTYPE DHT11   // DHT 11
 
 
